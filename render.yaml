@@ -1,0 +1,9 @@
+# Render Blueprint (optional). See README "Step 7" for the click-through way.
+# This tells Render: it's a static site, there's nothing to build,
+# and the files to publish are in the repo root.
+services:
+  - type: web
+    name: my-portfolio # change to something unique, e.g. yourname-portfolio
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./

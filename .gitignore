@@ -1,0 +1,16 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings (keep shared recommendations)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Secrets — never commit these
+.env
+.env.*
+
+# Dependencies (in case you add any later)
+node_modules/

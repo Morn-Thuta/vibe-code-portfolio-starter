@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- TODO: Change the title and description to your own -->
+  <title>Your Name | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Your Name — student, builder, problem solver." />
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo">YN</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero container">
+      <p class="hero-greeting">Hi, I'm</p>
+      <!-- TODO: Put your name here -->
+      <h1 class="hero-name">Your Name</h1>
+      <!-- TODO: One line about who you are -->
+      <p class="hero-tagline">Student developer who likes building things on the web.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <!-- TODO: Replace with your own photo in assets/images/ -->
+        <img src="assets/images/profile-placeholder.svg" alt="Photo of Your Name" class="about-photo" />
+        <div>
+          <!-- TODO: Write 2–3 short paragraphs about yourself -->
+          <p>
+            I'm a student at <strong>Your School</strong> studying <strong>Your Course</strong>.
+            Write a few sentences here about what you're into, what you're learning,
+            and what kind of work you want to do.
+          </p>
+          <p>
+            Outside of class, I enjoy <em>hobby one</em>, <em>hobby two</em>, and <em>hobby three</em>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section container">
+      <h2 class="section-title">Skills</h2>
+      <!-- TODO: List your real skills -->
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Git &amp; GitHub</li>
+        <li>Teamwork</li>
+      </ul>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <!-- TODO: Copy this card for each project you want to show -->
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>A short description of what this project does and what you learned building it.</p>
+          <ul class="project-tags">
+            <li>HTML</li><li>CSS</li>
+          </ul>
+          <a href="#" class="project-link">View project →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>A short description of what this project does and what you learned building it.</p>
+          <ul class="project-tags">
+            <li>Python</li>
+          </ul>
+          <a href="#" class="project-link">View project →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>A short description of what this project does and what you learned building it.</p>
+          <ul class="project-tags">
+            <li>JavaScript</li>
+          </ul>
+          <a href="#" class="project-link">View project →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact</h2>
+      <p>Want to work together or just say hi? Find me here:</p>
+      <!-- TODO: Put in your real links (delete any you don't use) -->
+      <ul class="contact-links">
+        <li><a href="mailto:you@example.com">Email</a></li>
+        <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name. Built during the Vibe Code Your Portfolio workshop.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
