@@ -62,9 +62,10 @@ code .
 
 ## Step 3: Preview your site
 
-1. VS Code will pop up *"This workspace has extension recommendations"*. Click **Install** (you get Live Server and Copilot)
-2. Right-click `index.html` → **Open with Live Server**
-3. Your site opens in the browser and **refreshes by itself** every time you save a file
+1. VS Code asks **"Do you trust the authors of the files in this folder?"** Click **Yes, I trust the authors**. If you see a blue **Restricted Mode** bar at the top instead, click **Manage → Trust**. Copilot can't edit your files until you do this.
+2. VS Code will pop up *"This workspace has extension recommendations"*. Click **Install** (you get Live Server and Copilot)
+3. Right-click `index.html` → **Open with Live Server**
+4. Your site opens in the browser and **refreshes by itself** every time you save a file
 
 ## Step 4: Vibe code it with Copilot ✨
 
@@ -136,7 +137,7 @@ From now on, **every `git push` updates your live site automatically.**
 | `Permission denied` / `403` on push | You cloned the original repo, not your copy. Fork it, then run `git remote set-url origin <your-copy-url>` |
 | `Please tell me who you are` | Run the two `git config` commands from "Before the workshop" |
 | `rejected ... fetch first` | The repo on GitHub has changes you don't have. Run `git pull`, then `git push` |
-| Copilot isn't changing my files | Make sure the chat mode is set to **Agent**, not Ask |
+| Copilot isn't changing my files | Make sure the chat mode is set to **Agent**, and that the folder is trusted (no blue **Restricted Mode** bar) |
 | Copilot says I hit my limit | Copilot Free has a monthly limit. Apply for free Pro via GitHub Education, or make smaller, more specific requests |
 | Render can't see my repo | In Render go to **Account Settings → GitHub** and give Render access to that repo |
 | Render shows "Not Found" | Publish Directory must be `.` and `index.html` must be in the **root** of the repo, not a subfolder |
