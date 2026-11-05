@@ -14,3 +14,7 @@ desktop.ini
 
 # Dependencies (in case you add any later)
 node_modules/
+
+# Private inputs and local tools (this repo is public, keep these off GitHub)
+image-data/
+ui-ux-pro-max-skill/

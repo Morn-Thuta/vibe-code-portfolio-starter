@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Placeholder avatar: a cartoon artist with spiky hair, headphones and an orange hoodie">
+  <title>Placeholder avatar (swap for a real photo)</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#fbf3e2"/>
+      <stop offset="1" stop-color="#ead9b8"/>
+    </radialGradient>
+    <linearGradient id="hood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff6a2e"/>
+      <stop offset="1" stop-color="#e0480f"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a302b"/>
+      <stop offset="1" stop-color="#191513"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <!-- doodle stars -->
+  <g fill="none" stroke="#262320" stroke-width="5" stroke-linecap="round" opacity="0.5">
+    <path d="M90 120l0 40M70 140l40 0"/>
+    <path d="M510 90l0 30M495 105l30 0"/>
+    <path d="M500 250c20-10 40 10 20 25"/>
+  </g>
+  <!-- hoodie -->
+  <path d="M80 600c10-110 70-170 150-190 40 20 100 20 140 0 80 20 140 80 150 190z" fill="url(#hood)"/>
+  <path d="M230 410c20 40 120 40 140 0" fill="none" stroke="#b8380a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M270 450v70M330 450v70" stroke="#fbf3e2" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="270" cy="526" r="8" fill="#fbf3e2"/>
+  <circle cx="330" cy="526" r="8" fill="#fbf3e2"/>
+  <!-- neck -->
+  <path d="M262 340h76l6 80c-30 20-58 20-88 0z" fill="#e2ac85"/>
+  <!-- headphones around neck -->
+  <path d="M190 420c10-50 210-50 220 0" fill="none" stroke="#262320" stroke-width="18" stroke-linecap="round"/>
+  <ellipse cx="188" cy="430" rx="34" ry="44" fill="#262320"/>
+  <ellipse cx="412" cy="430" rx="34" ry="44" fill="#262320"/>
+  <circle cx="188" cy="430" r="12" fill="#19b6c9"/>
+  <circle cx="412" cy="430" r="12" fill="#19b6c9"/>
+  <!-- face -->
+  <path d="M205 230c0 85 40 150 95 150s95-65 95-150-40-120-95-120-95 35-95 120z" fill="#f3c9a4"/>
+  <!-- hair -->
+  <path d="M180 260l-10-60 30 10-20-70 50 30 0-70 45 50 25-70 30 65 40-55 5 70 55-25-25 65 40 0-30 50 10 40-40-30-25 40-25-45-30 40-25-45-30 45-20-40-35 30z" fill="url(#hair)"/>
+  <!-- pencil tucked in hair -->
+  <g transform="rotate(-35 420 170)">
+    <rect x="370" y="160" width="110" height="18" rx="3" fill="#f5c04a"/>
+    <path d="M480 160l26 9-26 9z" fill="#f3d9b5"/>
+    <path d="M498 166l8 3-8 3z" fill="#262320"/>
+    <rect x="362" y="160" width="12" height="18" rx="2" fill="#e88a9a"/>
+  </g>
+  <!-- eyes -->
+  <path d="M235 268c15-12 40-12 55 0" fill="none" stroke="#262320" stroke-width="8" stroke-linecap="round"/>
+  <path d="M310 268c15-12 40-12 55 0" fill="none" stroke="#262320" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="262" cy="290" rx="14" ry="18" fill="#ff5a1f"/>
+  <ellipse cx="338" cy="290" rx="14" ry="18" fill="#ff5a1f"/>
+  <ellipse cx="262" cy="284" rx="14" ry="10" fill="#262320"/>
+  <ellipse cx="338" cy="284" rx="14" ry="10" fill="#262320"/>
+  <circle cx="257" cy="283" r="5" fill="#fff"/>
+  <circle cx="333" cy="283" r="5" fill="#fff"/>
+  <!-- blush, nose, mouth -->
+  <ellipse cx="236" cy="322" rx="16" ry="8" fill="#ef8f7a" opacity="0.5"/>
+  <ellipse cx="364" cy="322" rx="16" ry="8" fill="#ef8f7a" opacity="0.5"/>
+  <path d="M302 300l-5 18 8 2" fill="none" stroke="#b9785a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M276 345c14 12 34 12 48 0" fill="none" stroke="#262320" stroke-width="6" stroke-linecap="round"/>
+</svg>
